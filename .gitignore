@@ -1,0 +1,34 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/themes/twentytwentyfive/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+web/app/cache/*
+web/app/themes/bhaktimadani-wp-theme/node_modules
+web/app/themes/bhaktimadani-wp-theme/vendor
+web/app/themes/bhaktimadani-wp-theme/public/*
+!web/app/themes/bhaktimadani-wp-theme/public/.gitkeep
+web/app/themes/bhaktimadani-wp-theme/.env
+web/app/themes/bhaktimadani-wp-theme/npm-debug.log
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor
+auth.json
+
+# WP-CLI
+wp-cli.local.yml
